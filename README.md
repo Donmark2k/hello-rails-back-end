@@ -20,9 +20,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [HELO-RAILS-REACT] <a name="about-project"></a>
+# 📖 Hello Rails API <a name="about-project"></a>
 
-**[Hello rails react]** is an application designed for combination of react and rails.
+**Hello Rails API** is a backend API for a displaying random greetings.
+
+## Frontend
+
+The frontend was made with react and can be found [here](https://github.com/donmark2k/hello_react_frontend)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,8 +40,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Users combine rails and react in one application]**
-- **[Users consume API]**
+- **Generate Random Greetings.**
+- **It allows users to see each random Greeting.**
 
 
 
@@ -66,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/donmark2k/hello-rails-react.git
+  git clone https://github.com/donmark2k/hello-rails-back-end.git
 ```
 
 ### Install
@@ -74,7 +78,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd budget_app
+  cd hello-rails-back-end
   bundle install
 ```
 
@@ -82,8 +86,20 @@ Install this project with:
 
 To run the project, execute the following command:
 
-``` sh
-./bin/dev 
+```
+  rails db:create
+```
+
+```
+  rails db:migrate
+```
+
+```
+  rails db:seed
+```
+
+```
+  rails server
 ```
 ### Run tests
 
@@ -123,7 +139,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/donmark2k/hello-rails-react/issues).
+Feel free to check the [issues page](https://github.com/donmark2k/hello-rails-back-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +148,7 @@ Feel free to check the [issues page](https://github.com/donmark2k/hello-rails-re
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please leave a STAR to the [Github repo](https://github.com/donmark2k/
-hello-rails-react/)
+hello-rails-back-end/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +156,7 @@ hello-rails-react/)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning resources for this exercise, and I would specially thank   [Gregoire Vella](https://www.behance.net/gregoirevella) who is the original author of this [design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the learning resources for this exercise.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
